@@ -1,0 +1,13 @@
+Wands - Жезлы
+Swords - Мечи (Spade)
+Pentacles - Монеты
+Cups - Чаши (Chalices, Copas)
+
+Ace - Туз
+King - Король
+Queen - Королева
+Knight - Рыцарь
+Princess - Принцесса (Page, Knave - Паж)
+
+
+
