@@ -16,7 +16,6 @@ type
     N21: TMenuItem;
     N31: TMenuItem;
     StaticText1: TStaticText;
-    Image1: TImage;
   private
     { Private declarations }
   public
