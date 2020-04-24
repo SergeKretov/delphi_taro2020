@@ -9,5 +9,5 @@ Queen - Королева
 Knight - Рыцарь
 Princess - Принцесса (Page, Knave - Паж)
 
-
-
+0 - Fool (Дурак)
+1 - Magician (Маг)
