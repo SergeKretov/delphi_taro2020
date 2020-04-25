@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
+  Left = 285
+  Top = 185
   Width = 1044
   Height = 600
   Caption = #1058#1040#1056#1054' 2020'
@@ -13,6 +13,7 @@ object Form1: TForm1
   Menu = MainMenu1
   OldCreateOrder = False
   WindowState = wsMaximized
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
@@ -21,6 +22,7 @@ object Form1: TForm1
     Width = 1028
     Height = 483
     Align = alClient
+    Stretch = True
   end
   object Panel1: TPanel
     Left = 0
@@ -47,6 +49,7 @@ object Form1: TForm1
       Caption = #1056#1072#1089#1082#1083#1072#1076#1099
       object N11: TMenuItem
         Caption = #1056#1072#1089#1082#1083#1072#1076' 1'
+        OnClick = N11Click
       end
       object N21: TMenuItem
         Caption = #1056#1072#1089#1082#1083#1072#1076' 2'

@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, ExtCtrls, StdCtrls;
+  Dialogs, Menus, ExtCtrls, StdCtrls, global, jpeg;
 
 type
   TForm1 = class(TForm)
@@ -17,6 +17,8 @@ type
     N31: TMenuItem;
     StaticText1: TStaticText;
     Image1: TImage;
+    procedure FormCreate(Sender: TObject);
+    procedure N11Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,6 +30,19 @@ var
 
 implementation
 
+uses r1;
+
 {$R *.dfm}
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  AppPath:=ExtractFilePath(Application.ExeName);
+  Image1.Picture.LoadFromFile(AppPath+'Image\space.jpg');
+end;
+
+procedure TForm1.N11Click(Sender: TObject);
+begin
+  Form2.ShowModal;
+end;
 
 end.
