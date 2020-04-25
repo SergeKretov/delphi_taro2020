@@ -21,3 +21,14 @@ Princess - Принцесса (Page, Knave - Паж)
 9 - Hermit (Отшельник)
 10 - Wheel of Fortune (Колесо фортуны)
 11 - Justice (Справедливость, суд)
+12 - Hanged (Повешенный)
+13 - Death (Смерть)
+14 - Temperance (Умеренность)
+15 -
+16 -
+17 -
+18 -
+19 -
+20 - Judgement (Суд)
+21 - World (Мир)
+
