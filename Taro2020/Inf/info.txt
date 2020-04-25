@@ -1,14 +1,17 @@
+[M]
 Wands - Жезлы
 Swords - Мечи (Spade)
 Pentacles - Монеты
 Cups - Чаши (Chalices, Copas)
 
+[I]
 Ace - Туз
 King - Король
 Queen - Королева
 Knight - Рыцарь
 Princess - Принцесса (Page, Knave - Паж)
 
+[HO]
 0 - Fool (Дурак)
 1 - Magician (Маг)
 2 - High priestess (Верховная жрица)
@@ -24,11 +27,11 @@ Princess - Принцесса (Page, Knave - Паж)
 12 - Hanged (Повешенный)
 13 - Death (Смерть)
 14 - Temperance (Умеренность)
-15 -
-16 -
-17 -
-18 -
-19 -
+15 - Devil (Дьявол)
+16 - Tower (Башня)
+17 - Star (Звезда)
+18 - Moon (Луна)
+19 - Sun (Солнце)
 20 - Judgement (Суд)
 21 - World (Мир)
 
