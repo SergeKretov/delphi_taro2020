@@ -46,6 +46,8 @@ var
 
 implementation
 
+uses info;
+
 {$R *.dfm}
 
 procedure TForm2.Button2Click(Sender: TObject);
@@ -81,9 +83,35 @@ CloseFile(fot);
 end;
 
 procedure TForm2.Button1Click(Sender: TObject);
+var nn1:integer;
+    filename:string;
+
 begin
-  Showmessage(inttostr(ComboBox1.ItemIndex));
-  
+  nn1:=ComboBox1.ItemIndex;
+  if nn1<0 then showmessage('Нужно выбрать карту!') else
+    begin
+      if nn1>255 then nn1:=255;
+      filename:=GetFileCard(nn1);
+      if filename<>'' then
+        begin
+          Form3.Top:=Screen.Height - Form3.Height - 50;
+          Form3.Left:=Screen.Width - Form3.Width - 5;
+          Form3.Memo1.Clear;
+          Form3.Memo1.Lines.Add(filename);
+          Form3.Memo1.Lines.Add(ComboBox1.Items[nn1]);
+          Form3.Memo1.Lines.Add('');
+          if CheckBox1.Checked then GetTextFromFile(filename,1);
+          if CheckBox2.Checked then GetTextFromFile(filename,2);
+          if CheckBox3.Checked then GetTextFromFile(filename,3);
+          if CheckBox4.Checked then GetTextFromFile(filename,4);
+          if CheckBox5.Checked then GetTextFromFile(filename,5);
+          if CheckBox6.Checked then GetTextFromFile(filename,6);
+          if CheckBox7.Checked then GetTextFromFile(filename,7);
+          if CheckBox8.Checked then GetTextFromFile(filename,8);
+          GetTextFromFile(filename,9);
+          Form3.ShowModal;
+        end;
+    end;
 end;
 
 end.

@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, ExtCtrls, StdCtrls, global, jpeg;
+  Dialogs, Menus, ExtCtrls, StdCtrls, global, jpeg, Buttons;
 
 type
   TForm1 = class(TForm)
@@ -17,8 +17,10 @@ type
     N31: TMenuItem;
     StaticText1: TStaticText;
     Image1: TImage;
+    SpeedButton1: TSpeedButton;
     procedure FormCreate(Sender: TObject);
     procedure N11Click(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,6 +32,8 @@ var
 
 implementation
 
+uses r1;
+
 {$R *.dfm}
 
 procedure TForm1.FormCreate(Sender: TObject);
@@ -39,6 +43,11 @@ begin
 end;
 
 procedure TForm1.N11Click(Sender: TObject);
+begin
+  Form2.ShowModal;
+end;
+
+procedure TForm1.SpeedButton1Click(Sender: TObject);
 begin
   Form2.ShowModal;
 end;

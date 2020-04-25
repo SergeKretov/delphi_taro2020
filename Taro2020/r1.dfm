@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 191
-  Top = 125
+  Left = 205
+  Top = 122
   BorderStyle = bsDialog
   Caption = #1056#1072#1089#1082#1083#1072#1076' 1'
   ClientHeight = 375
