@@ -1,9 +1,9 @@
-object Form2: TForm2
-  Left = 205
-  Top = 122
+object Form5: TForm5
+  Left = 191
+  Top = 125
   BorderStyle = bsDialog
-  Caption = #1056#1072#1089#1082#1083#1072#1076' '#1087#1086' 1 '#1082#1072#1088#1090#1077' 6 '#1074#1086#1087#1088#1086#1089#1086#1074
-  ClientHeight = 375
+  Caption = #1056#1072#1089#1082#1083#1072#1076' '#1087#1086' 3 '#1082#1072#1088#1090#1099' 6 '#1074#1086#1087#1088#1086#1089#1086#1074
+  ClientHeight = 403
   ClientWidth = 1028
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -32,7 +32,7 @@ object Form2: TForm2
   end
   object Label2: TLabel
     Left = 8
-    Top = 136
+    Top = 168
     Width = 77
     Height = 20
     Caption = #1042#1086#1087#1088#1086#1089' 2'
@@ -45,7 +45,7 @@ object Form2: TForm2
   end
   object Label3: TLabel
     Left = 8
-    Top = 176
+    Top = 208
     Width = 77
     Height = 20
     Caption = #1042#1086#1087#1088#1086#1089' 3'
@@ -58,7 +58,7 @@ object Form2: TForm2
   end
   object Label4: TLabel
     Left = 8
-    Top = 216
+    Top = 248
     Width = 77
     Height = 20
     Caption = #1042#1086#1087#1088#1086#1089' 4'
@@ -71,7 +71,7 @@ object Form2: TForm2
   end
   object Label5: TLabel
     Left = 8
-    Top = 256
+    Top = 288
     Width = 77
     Height = 20
     Caption = #1042#1086#1087#1088#1086#1089' 5'
@@ -84,7 +84,7 @@ object Form2: TForm2
   end
   object Label6: TLabel
     Left = 8
-    Top = 296
+    Top = 328
     Width = 77
     Height = 20
     Caption = #1042#1086#1087#1088#1086#1089' 6'
@@ -97,7 +97,7 @@ object Form2: TForm2
   end
   object Label7: TLabel
     Left = 8
-    Top = 48
+    Top = 40
     Width = 46
     Height = 20
     Caption = #1050#1072#1088#1090#1072
@@ -123,7 +123,7 @@ object Form2: TForm2
   end
   object ComboBox1: TComboBox
     Left = 8
-    Top = 72
+    Top = 64
     Width = 385
     Height = 28
     Font.Charset = DEFAULT_CHARSET
@@ -250,7 +250,7 @@ object Form2: TForm2
   end
   object Edit2: TEdit
     Left = 88
-    Top = 136
+    Top = 168
     Width = 929
     Height = 28
     Font.Charset = DEFAULT_CHARSET
@@ -263,7 +263,7 @@ object Form2: TForm2
   end
   object Edit3: TEdit
     Left = 88
-    Top = 176
+    Top = 208
     Width = 929
     Height = 28
     Font.Charset = DEFAULT_CHARSET
@@ -276,7 +276,7 @@ object Form2: TForm2
   end
   object Edit4: TEdit
     Left = 88
-    Top = 216
+    Top = 248
     Width = 929
     Height = 28
     Font.Charset = DEFAULT_CHARSET
@@ -289,7 +289,7 @@ object Form2: TForm2
   end
   object Edit5: TEdit
     Left = 88
-    Top = 256
+    Top = 288
     Width = 929
     Height = 28
     Font.Charset = DEFAULT_CHARSET
@@ -302,7 +302,7 @@ object Form2: TForm2
   end
   object Edit6: TEdit
     Left = 88
-    Top = 296
+    Top = 328
     Width = 929
     Height = 28
     Font.Charset = DEFAULT_CHARSET
@@ -315,7 +315,7 @@ object Form2: TForm2
   end
   object Button1: TButton
     Left = 8
-    Top = 336
+    Top = 368
     Width = 145
     Height = 25
     Caption = #1058#1086#1083#1082#1086#1074#1072#1085#1080#1077
@@ -330,7 +330,7 @@ object Form2: TForm2
   end
   object Button2: TButton
     Left = 872
-    Top = 336
+    Top = 368
     Width = 145
     Height = 25
     Caption = #1047#1072#1082#1088#1099#1090#1100
@@ -342,5 +342,35 @@ object Form2: TForm2
     ParentFont = False
     TabOrder = 16
     OnClick = Button2Click
+  end
+  object ComboBox2: TComboBox
+    Left = 8
+    Top = 96
+    Width = 385
+    Height = 28
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ItemHeight = 20
+    ParentFont = False
+    TabOrder = 17
+    Text = #1042#1099#1073#1088#1072#1090#1100' '#1074#1099#1087#1072#1074#1096#1091#1102' '#1082#1072#1088#1090#1091
+  end
+  object ComboBox3: TComboBox
+    Left = 8
+    Top = 128
+    Width = 385
+    Height = 28
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ItemHeight = 20
+    ParentFont = False
+    TabOrder = 18
+    Text = #1042#1099#1073#1088#1072#1090#1100' '#1074#1099#1087#1072#1074#1096#1091#1102' '#1082#1072#1088#1090#1091
   end
 end

@@ -79,13 +79,11 @@ while not eof(fot) do
         end;
   end;
 CloseFile(fot);
-
 end;
 
 procedure TForm2.Button1Click(Sender: TObject);
 var nn1:integer;
     filename:string;
-
 begin
   nn1:=ComboBox1.ItemIndex;
   if nn1<0 then showmessage('Нужно выбрать карту!') else

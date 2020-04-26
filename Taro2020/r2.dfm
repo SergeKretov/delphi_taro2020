@@ -1,9 +1,9 @@
-object Form2: TForm2
-  Left = 205
-  Top = 122
+object Form4: TForm4
+  Left = 385
+  Top = 280
   BorderStyle = bsDialog
-  Caption = #1056#1072#1089#1082#1083#1072#1076' '#1087#1086' 1 '#1082#1072#1088#1090#1077' 6 '#1074#1086#1087#1088#1086#1089#1086#1074
-  ClientHeight = 375
+  Caption = #1056#1072#1089#1082#1083#1072#1076' '#1087#1086' 2 '#1082#1072#1088#1090#1099' 6 '#1074#1086#1087#1088#1086#1089#1086#1074
+  ClientHeight = 370
   ClientWidth = 1028
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -97,7 +97,7 @@ object Form2: TForm2
   end
   object Label7: TLabel
     Left = 8
-    Top = 48
+    Top = 40
     Width = 46
     Height = 20
     Caption = #1050#1072#1088#1090#1072
@@ -123,7 +123,7 @@ object Form2: TForm2
   end
   object ComboBox1: TComboBox
     Left = 8
-    Top = 72
+    Top = 64
     Width = 385
     Height = 28
     Font.Charset = DEFAULT_CHARSET
@@ -342,5 +342,20 @@ object Form2: TForm2
     ParentFont = False
     TabOrder = 16
     OnClick = Button2Click
+  end
+  object ComboBox2: TComboBox
+    Left = 8
+    Top = 96
+    Width = 385
+    Height = 28
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ItemHeight = 20
+    ParentFont = False
+    TabOrder = 17
+    Text = #1042#1099#1073#1088#1072#1090#1100' '#1074#1099#1087#1072#1074#1096#1091#1102' '#1082#1072#1088#1090#1091
   end
 end

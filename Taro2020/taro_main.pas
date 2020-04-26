@@ -18,9 +18,23 @@ type
     StaticText1: TStaticText;
     Image1: TImage;
     SpeedButton1: TSpeedButton;
+    N3: TMenuItem;
+    N4: TMenuItem;
+    N5: TMenuItem;
+    N6: TMenuItem;
+    N7: TMenuItem;
+    N8: TMenuItem;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
     procedure FormCreate(Sender: TObject);
     procedure N11Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
+    procedure N21Click(Sender: TObject);
+    procedure N31Click(Sender: TObject);
+    procedure N8Click(Sender: TObject);
+    procedure N6Click(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -32,7 +46,7 @@ var
 
 implementation
 
-uses r1;
+uses r1, r2, r3;
 
 {$R *.dfm}
 
@@ -50,6 +64,36 @@ end;
 procedure TForm1.SpeedButton1Click(Sender: TObject);
 begin
   Form2.ShowModal;
+end;
+
+procedure TForm1.N21Click(Sender: TObject);
+begin
+  Form4.ShowModal;
+end;
+
+procedure TForm1.N31Click(Sender: TObject);
+begin
+  Form5.ShowModal;
+end;
+
+procedure TForm1.N8Click(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TForm1.N6Click(Sender: TObject);
+begin
+  ShowMessage('(c) 2020 Сергей С. Барсуков г.Норильск 8-905-979-10-76');
+end;
+
+procedure TForm1.SpeedButton2Click(Sender: TObject);
+begin
+  Form4.ShowModal;
+end;
+
+procedure TForm1.SpeedButton3Click(Sender: TObject);
+begin
+  Form5.ShowModal;
 end;
 
 end.
