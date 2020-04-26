@@ -7,7 +7,8 @@ uses
   r1 in 'r1.pas' {Form2},
   info in 'info.pas' {Form3},
   r2 in 'r2.pas' {Form4},
-  r3 in 'r3.pas' {Form5};
+  r3 in 'r3.pas' {Form5},
+  adr in 'adr.pas' {Form6};
 
 {$R *.res}
 
@@ -19,5 +20,6 @@ begin
   Application.CreateForm(TForm3, Form3);
   Application.CreateForm(TForm4, Form4);
   Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
   Application.Run;
 end.

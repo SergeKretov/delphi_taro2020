@@ -26,6 +26,7 @@ type
     N8: TMenuItem;
     SpeedButton2: TSpeedButton;
     SpeedButton3: TSpeedButton;
+    N9: TMenuItem;
     procedure FormCreate(Sender: TObject);
     procedure N11Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
@@ -35,6 +36,7 @@ type
     procedure N6Click(Sender: TObject);
     procedure SpeedButton2Click(Sender: TObject);
     procedure SpeedButton3Click(Sender: TObject);
+    procedure N9Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -46,7 +48,7 @@ var
 
 implementation
 
-uses r1, r2, r3;
+uses r1, r2, r3, adr;
 
 {$R *.dfm}
 
@@ -94,6 +96,11 @@ end;
 procedure TForm1.SpeedButton3Click(Sender: TObject);
 begin
   Form5.ShowModal;
+end;
+
+procedure TForm1.N9Click(Sender: TObject);
+begin
+  Form6.ShowModal;
 end;
 
 end.
